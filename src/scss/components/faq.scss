@@ -1,0 +1,32 @@
+.faq_block{
+    &_block_article{
+        padding-left: 150px;
+    }
+    &_title{
+        padding-bottom: 8px;
+
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
+    }
+    &_text{
+        padding-bottom: 40px;
+
+        max-width: 800px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+    }
+    &_link{
+        padding-left: 150px;
+        padding-bottom: 120px;
+        max-width: 996px;
+    }
+    &_email{
+        color: var(--color-black);
+        cursor: pointer;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 120%;
+    }
+}

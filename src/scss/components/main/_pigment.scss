@@ -1,0 +1,34 @@
+.pigment{
+   &_container{
+    position: relative;
+   }
+    &_img{
+        display: block;
+        margin: 0 auto;
+        padding-top: 70px;
+        padding-right: 49px;
+    }
+    &_text{
+        max-width: 209px;
+
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        color: var(--color-black);
+        z-index: 1;
+        position: absolute;
+    }
+    &_text_one{
+        top: 25%;
+        left: 68%;
+    }
+    &_text_two{
+        top: 56%;
+        left: 7%;
+    }
+    &_text_three{
+        top: 81%;
+        left: 60%;
+    }
+}

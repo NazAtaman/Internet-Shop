@@ -1,0 +1,54 @@
+// базовые подключения
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// подключения компонентов страницы
+
+@import "./components/header";
+@import "./components/nav";
+@import "./components/footer";
+
+/* Main */
+@import "./components/main/days";
+@import "./components/main/product";
+@import "./components/main/pigment";
+@import "./components/main/colected";
+@import "./components/main/trending";
+
+
+
+/* Extensions */
+@import "./components/extensions/breadcrumbs";
+@import "./components/extensions/catalog-filter";
+
+
+
+/* Product */
+@import "./components/product/product";
+@import "./components/product/like";
+@import "./components/product/reviews";
+
+
+/* Trending */
+@import "./components/trending/trending";
+
+
+/* Contact */
+@import "./components/contact/contact";
+
+/* ContactUS */
+@import "./components/contactUs";
+
+/* trending-article */
+@import "./components/trending-article/trending-article";
+
+/* About */
+@import "./components/about/about";
+
+/* Error */
+@import "./components/error";
+
+/* FAQ */
+@import "./components/faq";

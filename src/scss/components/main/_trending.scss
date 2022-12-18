@@ -1,0 +1,74 @@
+.trending{
+    position: relative;
+
+    background-color: var(--color-grey);
+    padding-top: 6px;
+    padding-bottom: 4px;
+    &_title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 120%;
+
+        padding-bottom: 40px;
+    }
+    &_block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        transform: translate(12px, 4px);
+    }
+    &_item{
+        cursor: pointer;
+    }
+    &_item_img{
+        padding-bottom: 25px;
+    }
+    &_item_title{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+
+        padding-bottom: 8px;
+    }
+    &_item_text{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+
+        padding-bottom: 40px;
+    }
+    &_link{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+
+        cursor: pointer;
+        border-bottom: 1px solid var(--color-black);
+    }
+}
+
+.arrowUp{
+  position: absolute;
+  cursor: pointer;
+  left: 95%;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  border: 2px solid var(--color-black);
+  background-color: var(--color-black);
+  position: relative;
+  &::after{
+    content: "";
+    position: absolute;
+    background-image: url(../../../img/trending/arrow.svg);
+    width: 16px;
+    height: 9px;
+    top: 40%;
+    left: 37%;
+  }
+}

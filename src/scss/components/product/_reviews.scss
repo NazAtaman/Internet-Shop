@@ -1,0 +1,95 @@
+.reviews{
+    &_container{
+        display: flex;
+        padding-top: 120px;
+        padding-bottom: 112px;
+        }
+    &_mark{
+        margin-right: 130px;
+        width: 100%;
+        max-width: 280px;
+    }
+    &_mark_block{
+        display: flex;
+        justify-content: space-between;
+    }
+    &_mark_rate{
+        padding-left: 8px;
+    }
+    &_mark_text{
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 120%;
+
+        padding-bottom: 10px;
+    }
+    &_mark_img{
+        padding-bottom: 10px;
+
+    }
+    &_mark_subtext{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 120%;
+    }
+    &_mark_grade{
+        padding-top: 8px;
+        font-weight: 600;
+        font-size: 58px;
+        line-height: 120%;
+    }
+    &_mark_btn{
+        cursor: pointer;
+        padding: 13px 87px;
+        margin-top: 48px;
+        margin-left: 8px;
+
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 15px;
+
+        border: 1px solid #000105;
+        border-radius: 4px;
+    }
+
+
+
+    &_slider_box{
+        display: flex;
+        justify-content: space-between;
+    }
+    &_coment{
+        max-width: 222px;
+        margin-right: 21px;
+    }
+    &_coment_name{
+        padding-bottom: 11px;
+
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    &_coment_rate{
+        padding-bottom: 2px;
+    }
+    &_coment_date{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 13px;
+    }
+    &_coment_descr{
+        padding-top: 16px;
+        padding-bottom: 16px;
+
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 120%;
+    }
+    &_coment_more{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 15px;
+        border-bottom: 1px solid var(--color-black);
+        width: 100%;
+    }
+}

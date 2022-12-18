@@ -1,0 +1,154 @@
+.about{
+    &_bg{
+        position: relative;
+
+        background-image: url(../../../img/about/aboutBG.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 617px;
+        background-color:#d98987;
+    }
+    &_bg_descr{
+        position: absolute;
+        top: 227px;
+        right: 215px;
+        max-width: 370px;
+    }
+    &_text{
+        padding-bottom: 8px;
+
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+    }
+    &_name{
+        padding-bottom: 25px;
+
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 120%;
+    }
+    &_subtext{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+    }
+    &_descr{
+        display: flex;
+        padding-top: 123px;
+    }
+    &_descr_block{
+        padding-top: 109px;
+        margin-right: 86px;
+
+        max-width: 445px;
+
+    }
+    &_descr_title{
+        padding-bottom: 50px;
+
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
+    }
+    &_descr_text{
+        max-width: 285px;
+    }
+    &_table{
+        background-color: var(--color-grey);
+        margin-top: 125px;
+        padding-bottom: 25px;
+    }
+    &_table_container{
+        display: flex;
+        flex-wrap: wrap;
+
+        padding-top: 70px;
+        padding-left: 305px;
+    }
+    &_table_item{
+        max-width: 345px;
+        &:nth-child(2n+1){
+            margin-right: 146px;
+            margin-bottom: 55px;
+        }
+    }
+    &_table_img{
+        padding-bottom: 44px;
+    }
+    &_table_text{
+        padding-bottom: 18px;
+
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 120%;
+    }
+    &_table_subtext{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+    }
+
+
+
+    &_guide{
+        padding-top: 120px;
+        padding-bottom: 25px;
+    }
+    &_guide_container{
+        display: flex;
+    }
+    &_guide_img{
+        padding-left: 19px;
+        padding-right: 133px;        
+    }
+    &_guide_info{
+        padding-top: 190px;
+    }
+    &_guide_info_title{
+        padding-bottom: 15px;
+
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 120%;
+    }
+    &_guide_info_subtitle{
+        padding-bottom: 20px;
+        max-width: 370px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+    }
+    &_guide_info_text{
+        display: flex;
+        justify-content: space-between;
+
+        max-width: 470px;
+        P{
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 20px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            &:first-child{
+                padding-right: 60px;
+            }
+        }
+    }
+
+
+
+
+    &_distributor{
+        background-color: var(--color-pink);
+    }
+    &_distributor_container{
+        padding-left: 22px;
+    }
+   &_distributor_btn{
+        padding: 24px 63px 17px 55px;
+   }
+}

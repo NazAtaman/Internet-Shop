@@ -1,0 +1,38 @@
+.days{
+    background-image: url(../../img/days/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    &_container{
+        display: flex;
+        justify-content: space-between;
+    }
+    &_content{
+        padding-top: 223px;
+        max-width: 590px;
+    }
+    &_title{
+        text-transform: uppercase;
+        padding-left: 19px;
+        padding-bottom: 35px;
+
+        font-style: normal;
+        font-weight: 600;
+         font-size: 55px;
+        line-height: 120%;
+        color: var(--color-white);
+    }
+    &_link{
+        margin-left: 16px;
+
+        color: var(--color-white);
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 120%;
+        border-bottom: 1px solid var(--color-white);
+    }
+    &_photo{
+        padding: 38px 104px 34px 0;
+    }
+}

@@ -1,0 +1,126 @@
+.header{
+    &_inner{
+        background-color: var(--color-black);
+    }
+    &_block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        padding: 16px 6px 11px 0;
+    }
+  
+    &_search{
+        background-image: url(../../img/header/Search.svg);
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    &_search_btn{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+    &_nav{
+        margin-left: 113px;
+    }
+   &_nav_item:not(:last-child){
+    padding-right: 40px;
+   }
+    &_nav_list{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        font-size: 14px;
+    }
+   
+  
+    &_nav_link{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 120%;
+        color: var(--color-white);
+    }
+    &_choose{
+        display: flex;
+        color: var(--color-white);
+
+        margin-right: 22px;
+        font-size: 14px;
+    }
+    &_choose_currency{
+        padding-right: 30px;
+    }
+
+}
+
+
+.subheader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &_nav_list{
+        display: flex;
+        align-items: center;
+    }
+    &_nav_logo{
+        padding: 16px 105px;
+    }
+    &_nav_link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        color: var(--color-black);
+    }
+   
+
+   /*  display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 9px 16px 93px;
+    margin-left: 25px;
+    &_nav_list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_nav_item:not(:last-child){
+        padding-right: 91px;
+    }
+    &_nav_link{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+        color: var(--color-black);
+    }
+
+    &_cab{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+    &_cab_client{
+        display: block;
+        background-image: url(../../img/header/accounts.svg);
+        width: 18px;
+        height: 17px;
+    }
+    &_cab_purch{
+        display: block;
+        background-image: url(../../img/header/Chart.svg);
+        width: 24px;
+        height: 24px;
+    }
+}
